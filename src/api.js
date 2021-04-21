@@ -6,8 +6,8 @@ import * as log from "./log.js";
 
 // 公共头
 const COMMON_HEADERS = {
-  "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
-  "User-Agent": "MiFit/4.6.0 (iPhone; iOS 14.0.1; Scale/2.00)",
+  "Content-Type": "application/x-www-form-urlencoded",
+  "User-Agent": "MiFit/5.0.1 (iPhone; iOS 14.4; Scale/2.00)",
 };
 
 // 初始化请求工具
@@ -109,7 +109,7 @@ export async function pushBandData(step, user_id, app_token) {
     userid: user_id,
     last_sync_data_time: 1597306380,
     device_type: 0,
-    last_deviceid: "DA932FFFFE8816E7",
+    last_deviceid: "140614FFFE001E58",
     data_json: await buildDataJson(step),
   });
 
